@@ -1,0 +1,112 @@
+
+* { margin: 0; padding: 0; outline: 0 }
+
+html { background: #010000 url(bg.gif) repeat-x; }
+
+body {
+	font: 11px/165% 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif;
+	color: #5E5E5E;
+	margin: 0; 	padding: 0; 
+	background: #010000 url(bg2.jpg) no-repeat center top;
+	text-align: center;
+}
+
+
+
+/* ------------------------------------------
+   LAYOUT
+------------------------------------------- */ 
+#wrap {
+	width: 950px;	
+	margin: 0 auto;
+	text-align: left;		
+}
+#content-wrap {
+	clear: both;
+	width: 950px;	
+	float: left;	
+	padding-top: 15px;
+	padding-bottom: 50px;	
+	background: url(midline.gif) repeat-y 600px 0;	
+	border-top: 1px solid #121212;
+	border-bottom: 1px solid #121212;
+}
+#header {
+	position: relative;
+	width: 950px;	
+	height: 370px;	
+	margin: 0; padding: 0;			
+}
+#header h1#logo-text a {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: bold 65px 'Trebuchet MS', Tahoma, Helvetica, Arial, Sans-serif;
+	letter-spacing: -1.5px;
+	color: #F8F8F8;
+	text-decoration: none;
+	text-transform: none;
+		
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 125px; left: 25px;	
+}
+#header h1#logo-text a:hover {
+	background: none;	border: none;
+}
+#header p#intro {
+	position: absolute;
+	margin: 0; padding: 0;
+	font-family: 'Trebuchet MS', Tahoma, Helvetica, Arial, Sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.5em;
+	font-style: normal;
+	text-transform: none;
+	color: #6D7D2D;
+	width: 400px;
+	
+	/* change the values of top and left to adjust the position */
+	top: 205px; left: 30px;		
+}
+
+/*  Navigation  */
+#nav {
+	position: absolute;
+	margin: 0; padding: 0;		
+	height: 50px;
+	left: 10px;	top: 30px;			
+}
+#nav ul {
+	float: left;
+	list-style: none;
+	height: 50px;
+	margin: 0 0 0 5px; padding: 0;	
+	display: inline;
+}
+#nav ul li {
+	display: inline;
+	margin: 0; padding: 0;
+}
+#nav ul li a {
+	float: left;
+	margin: 0;	padding: 0 12px;
+	font: bold 15px/50px 'Trebuchet MS', Helvetica, Arial, Geneva, sans-serif;
+	text-decoration: none;	
+	color: #c95723;	
+	text-transform: uppercase;
+}
+#nav ul li a:hover, 
+#nav ul li a:active {
+	color: #eee;
+	background: none;
+	border: none;
+}
+#nav ul li#current a {	
+	color: #D33972;	
+}
+
+
+
+
+
+
+
